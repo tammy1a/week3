@@ -1,0 +1,43 @@
+.task{
+    display: flex;
+    margin: 0 auto 10px;
+
+}
+.task-detail{
+    padding: 0 10px 0 10px;
+    margin: 0 auto;
+    gap:5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    min-width: 400px;
+
+}
+.task-detail p{
+    min-width: 200px;
+    text-wrap: wrap;
+    max-width: 300px;
+    text-align: left;
+    word-wrap: break-word;
+    font-size: 1.2rem;
+}
+.task-buttons{
+
+    display: flex;
+    gap: 10px;
+    transition: 15s;
+}
+.fa-check:hover{
+    color: green;
+    font-size: 50px;
+}
+.fa-trash:hover{
+    color: red;
+    font-size: 50px;
+}
+.completed{
+    text-decoration: line-through;
+}

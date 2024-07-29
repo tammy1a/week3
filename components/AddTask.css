@@ -1,0 +1,33 @@
+.add-task{
+    margin: 50px auto 10px;
+   display: flex;
+   justify-content: center;
+   gap:5px;
+   align-items: center;;
+    height:50px;
+    font-size: large;;
+}
+.add-task input{
+    height: 80%;
+    width:300px;
+    max-width: 400px;
+    font-size: 1.5rem;
+    border:none;
+    padding-right: 10px;
+    outline: none;
+}
+.add-task input {
+    border:none;
+}
+.inner{
+    border:2px solid black;
+    padding: 0 5px 0 0;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.my-plus-button :hover{
+    color:red;
+}

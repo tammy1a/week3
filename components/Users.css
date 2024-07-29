@@ -1,0 +1,12 @@
+.users{
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-around;
+    transition: 01s;
+
+}
+.users .selected{
+    background-color: green;
+    color: orange;
+}
